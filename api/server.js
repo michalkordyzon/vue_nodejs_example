@@ -21,7 +21,7 @@ app.post('/api/user', (req, res) => {
   user.id = randomId(10);
   console.log('Adding user:::::', user);
   users.push(user);
-  res.json("user addedd");
+  res.json("user added!");
 });
 
 app.get('/', (req,res) => {
